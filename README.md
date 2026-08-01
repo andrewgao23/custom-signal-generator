@@ -6,8 +6,8 @@ Schematic and PCB layout designed in Altium and simulated in LTSpice.
 
 Performed AC and transient simulations in LTSpice at key test points to validate:
 
-Gain
+- Gain
 
-Wave shape (distortion/clipping check)
+- Wave shape (distortion/clipping check)
 
-Frequency response
+- Frequency response
