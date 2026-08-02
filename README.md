@@ -20,7 +20,7 @@ The LM741 (U1) is wired as a comparator with positive feedback (R1/R2) to produc
 
 
 Takes the triangle wave through R6/R7 into a ladder of diode branches (D3–D8), each connected to ground through a different resistor combination (R9–R13). As the triangle wave's voltage rises, each diode branch turns on at a progressively higher threshold, adding a new parallel resistive path to ground at that point. Diodes D3, D5 and D6 curve the waveform when voltage is >0, and diodes D4, D7 and D8 curve the waveform when voltage is <0.
-## Amplfiier
+## Amplifier
 <img width="682" height="701" alt="image" src="https://github.com/user-attachments/assets/042b4dcf-7c57-4867-be3a-a21954453b88" />
 
 
