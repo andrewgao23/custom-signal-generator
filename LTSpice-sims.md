@@ -23,6 +23,10 @@
 <img width="1917" height="846" alt="image" src="https://github.com/user-attachments/assets/bb002dca-314c-419f-b504-605fe2ca195d" />
 <br><br>
 (Above) Output waveforms side by side (blue: with push-pull amp, green: without). It seems that the push-pull amp distorts the waveform slightly in the middle.
+<br><br>
+<img width="1917" height="846" alt="image" src="https://github.com/user-attachments/assets/812ff5a1-c53f-495f-b73d-96328493a5e6" />
+<br><br>
+(Above) Current draw out of the amplifier op-amp with (blue) and without (green) push-pull amp. The push-pull amp supplies current, meaning the op-amp does not have to handle as much current.
 
 ## Relaxation Oscillator Breakdown
 
