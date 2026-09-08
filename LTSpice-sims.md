@@ -19,6 +19,10 @@
 <img width="1917" height="842" alt="image" src="https://github.com/user-attachments/assets/47398c6e-c93b-4331-a100-67d59df55b6d" />
 <br><br>
 (Above) Output waveforms without push-pull amplifier.
+<br><br>
+<img width="1917" height="846" alt="image" src="https://github.com/user-attachments/assets/bb002dca-314c-419f-b504-605fe2ca195d" />
+<br><br>
+(Above) Output waveforms side by side (blue: with push-pull amp, green: without). It seems that the push-pull amp distorts the waveform slightly in the middle.
 
 ## Relaxation Oscillator Breakdown
 
