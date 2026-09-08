@@ -57,7 +57,9 @@ A third LM741 (U3) buffers and adjusts the gain of the shaped waveform before it
 ## Push Pull Amplifier
 <img width="855" height="667" alt="image" src="https://github.com/user-attachments/assets/6c5d4277-f59b-41bf-b9ae-be124ceb8c45" />
 <br><br>
-Not strictly necessary, but useful to offload current draw from the amplifier op-amp to the pnp/npn transistors. One transistor sources current on the positive half of the waveform, the other sinks it on the negative half. C2 couples the output.
+An op-amp output is good at sourcing current into a load, but bad at rapidly sinking current back out when the signal swings negative or when the load pushes back. The amplifier stage is optimized for voltage gain and outputs a clean shaped sine at low currents, but when a load is connected, that op-amp output has limited current drive and is at risk if the load momentarily current-hogs the output or is miswired to a low impedance.
+<br><br>
+While not strictly necessary, a push-pull amplifier is useful for offloading current draw from the amplifier op-amp to the pnp/npn transistors. One transistor sources current on the positive half of the waveform, the other sinks it on the negative half. C2 couples the output.
 <br><br>
 To construct this circuit without the push-pull amplifier, connect the output of the op-amp directly with the output node:
 <br><br>
