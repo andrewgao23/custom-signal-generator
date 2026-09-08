@@ -16,6 +16,8 @@
 <br><br>
 (Above) Output waveforms when TR2 is adjusted (3.5K -> 1.5K). Vout clips at 6V.
 <br><br>
+<img width="1917" height="842" alt="image" src="https://github.com/user-attachments/assets/20aac29d-4632-48f3-bc4b-a84f11623bfb" />
+(Above) Output waveform without push-pull amplifier.
 
 ## Relaxation Oscillator Breakdown
 
