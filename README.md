@@ -59,3 +59,6 @@ A third LM741 (U3) buffers and adjusts the gain of the shaped waveform before it
 <br><br>
 Not strictly necessary, but useful to offload current draw from the amplifier op-amp to the pnp/npn transistors. One transistor sources current on the positive half of the waveform, the other sinks it on the negative half. C2 couples the output.
 <br><br>
+To construct this circuit without the push-pull amplifier, connect the output of the op-amp directly with the output node:
+<br><br>
+<img width="1307" height="700" alt="image" src="https://github.com/user-attachments/assets/a3159ae8-982d-4426-bd6e-398f7ba9bb13" />
