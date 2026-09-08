@@ -1,4 +1,4 @@
-## Simulation
+## Simulations
 
 <img width="1917" height="870" alt="image" src="https://github.com/user-attachments/assets/683eb11d-61fa-4113-be10-d55a0224e99b" />
 <br><br>
