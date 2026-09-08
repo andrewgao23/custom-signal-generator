@@ -18,6 +18,10 @@ Since the concept has been proved to work, I may consider other oscillator topol
 <br><br>
 A diode wave shaper ladder was also chosen for its simplicity and configurability. Alternatives such as dedicated shaping ICs may output less distortion, but are more complex, sensitive to temperature change, and harder to tune.
 <br><br>
+Since the wave shaper works by clipping the voltage to a linear approximation of a sine wave, an amplifier is needed to boost the waveform back to its intended peak-to-peak voltage.
+<br><br>
+A push-pull amplifier allows the circuit to handle much higher currents, as the op-amp ICs cannot sink that much current by themselves.
+<br><br>
 <img width="1441" height="827" alt="image" src="https://github.com/user-attachments/assets/0fb30d8c-4771-4cb5-8360-34de4467dbe2" />
 <br><br>
 
@@ -53,5 +57,5 @@ A third LM741 (U3) buffers and adjusts the gain of the shaped waveform before it
 ## Push Pull Amplifier
 <img width="855" height="667" alt="image" src="https://github.com/user-attachments/assets/6c5d4277-f59b-41bf-b9ae-be124ceb8c45" />
 <br><br>
-Not strictly necessary, but useful for OCP. One transistor sources current on the positive half of the waveform, the other sinks it on the negative half. C2 couples the output.
+Not strictly necessary, but useful to increase the current ceiling that the circuit can handle. One transistor sources current on the positive half of the waveform, the other sinks it on the negative half. C2 couples the output.
 <br><br>
