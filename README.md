@@ -59,8 +59,14 @@ A third LM741 (U3) buffers and adjusts the gain of the shaped waveform before it
 <br><br>
 An op-amp output is good at sourcing current into a load, but bad at rapidly sinking current back out when the signal swings negative or when the load pushes back. The amplifier stage is optimized for voltage gain and outputs a clean shaped sine at low currents, but when a load is connected, that op-amp output has limited current drive and is at risk if the load momentarily current-hogs the output or is miswired to a low impedance.
 <br><br>
-While not strictly necessary, a push-pull amplifier is useful for offloading current draw from the amplifier op-amp to the pnp/npn transistors. One transistor sources current on the positive half of the waveform, the other sinks it on the negative half. C2 couples the output.
+While not strictly necessary, a push-pull amplifier is useful for offloading current draw from the amplifier op-amp to the pnp/npn transistors. The NPN transistor turns on during the positive half-cycle and sources current from the supply into the load, pulling the output up. During the negative half-cycle, the PNP transistor turns on and sinks current into the negative rail. C2 couples the output.
+<br><br>
+An additional benefit is that if the output is shorted, the transistors will absorb the current instead of the amplifier stage.
 <br><br>
 To construct this circuit without the push-pull amplifier, connect the output of the op-amp directly with the output node:
 <br><br>
 <img width="1307" height="700" alt="image" src="https://github.com/user-attachments/assets/a3159ae8-982d-4426-bd6e-398f7ba9bb13" />
+<br><br>
+The sine wave output with this circuit will have a cleaner waveform compared to the circuit with the push-pull amplifier due to a phenomenon known as crossover distortion. Near zero voltage, both transistors are momentarily off, since neither one's base-emitter junction has enough voltage to conduct, which causes a small flat region in the output right at zero voltage. Comparison outputs can be seen in [LTSpice-sims.md].
+<br><br>
+In the future, I plan to implement a small bias network using diodes to keep both transistors on near zero voltage as to preserve sine wave shape at those points.
