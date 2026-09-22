@@ -70,3 +70,5 @@ To construct this circuit without the push-pull amplifier, connect the output of
 The sine wave output with this circuit will have a cleaner waveform compared to the circuit with the push-pull amplifier due to a phenomenon known as crossover distortion. Near zero voltage, both transistors are momentarily off, since neither one's base-emitter junction has enough voltage to conduct, which causes a small flat region in the output right at zero voltage. Comparison outputs can be seen in [LTSpice-sims.md].
 <br><br>
 In the future, I plan to implement a small bias network using diodes to keep both transistors on near zero voltage as to preserve sine wave shape at those points.
+<br><br>
+Edit 9/22/2026: Revisions documented in [[V2.md]].
