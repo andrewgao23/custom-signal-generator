@@ -120,3 +120,10 @@
 <img width="1917" height="842" alt="image" src="https://github.com/user-attachments/assets/a57e8475-e56b-4f02-b98c-8364f3f0c9a8" />
 <br><br>
 (Above) Wave shaper output when the D3-D4-R7-ground node is removed.
+<br><br>
+
+## THD Simulations
+
+<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/5e2baf90-09be-4248-8fb9-f4ba7cf19b9a" />
+(Above) THD analysis for square wave output.
+<br><br>
