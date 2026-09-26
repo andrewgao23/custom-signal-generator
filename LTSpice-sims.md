@@ -130,3 +130,11 @@
 <img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/c968a622-cb5d-4c05-ada4-a05067fe958b" />
 <br><br>
 (Above) THD analysis for triangle wave output.
+<br><br>
+<img width="1917" height="875" alt="image" src="https://github.com/user-attachments/assets/b9322537-144c-4b27-954b-d879cce76103" />
+<br><br>
+(Above) THD analysis for sine wave output.
+<br><br>
+<img width="1917" height="878" alt="image" src="https://github.com/user-attachments/assets/fe22c36f-1368-4ec3-952f-ca7fd17c2545" />
+<br><br>
+(Above) THD analysis for final summed output.
