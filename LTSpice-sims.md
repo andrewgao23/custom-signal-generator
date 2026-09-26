@@ -123,7 +123,10 @@
 <br><br>
 
 ## THD Simulations
-
-<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/5e2baf90-09be-4248-8fb9-f4ba7cf19b9a" />
+<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/41cb1c90-19be-4752-ad80-6d06586a5b47" />
+<br><br>
 (Above) THD analysis for square wave output.
 <br><br>
+<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/c968a622-cb5d-4c05-ada4-a05067fe958b" />
+<br><br>
+(Above) THD analysis for triangle wave output.
