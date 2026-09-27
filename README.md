@@ -13,7 +13,7 @@ The Wein Bridge oscillator topology was a potential option but not feasible due 
 <br><br>
 The simplest solution that would give the most configurability would be a oscillator + diode wave shaper topology, where the oscillator needs to output a triangle wave (with a tunable frequency), and the diode wave shaper would help form the sinusoidal waveform shape.
 <br><br>
-For the oscillator, I chose a relaxation oscillator for its simplicity and configurability. Also, it outputs a square wave for free.
+For the oscillator, I chose a relaxation oscillator, consisting of an inverting + non-inverting op-amp, for its simplicity and configurability. Also, it outputs a square wave for free.
 Since the concept has been proved to work, I may consider other oscillator topologies in the future that output cleaner triangle waves.
 <br><br>
 A diode wave shaper ladder was also chosen for its simplicity and configurability. Alternatives such as dedicated shaping ICs may output less distortion, but are more complex, sensitive to temperature change, and harder to tune.
